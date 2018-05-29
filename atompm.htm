@@ -1,0 +1,359 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="version" content="0.6.1"/>
+    <meta name="versionName" content="atompm-v0.6.1"/>
+    <title>AToMPM</title>
+    <link rel="SHORTCUT ICON" href="http://cs.ua.edu/favicon.ico"/>
+    <link rel="stylesheet" href="style/ua-eng-style.css" type="text/css"/>
+    <link rel="stylesheet" href="style/uj-style.css" type="text/css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="atompm-scripts.js"></script>
+</head>
+<body>
+<div id="topbar" onclick="javascript:$(topbar).fadeToggle();">
+</div>
+<div id="bg">
+<div id="wrapper">
+<div id="header" style="text-align: center;">
+    <img src="img/AToMPM-no_bg.png" alt="AToMPM" width="30%"/>
+</div>
+<div id="nav1">
+    <div class="inside" style="width: 100%">
+        <ul style="list-style: none; font-weight: bold; font-size: 12pt;">
+            <li style="width: 16.6%;"><a href="#home" onclick="load('#home');">Home</a></li>
+            <li style="width: 16.6%;"><a href="#people" onclick="load('#people');">People</a></li>
+            <li style="width: 16.6%;"><a href="#publications" onclick="load('#publications');">Publications</a></li>
+            <li style="width: 17%;"><a href="#media" onclick="load('#media');">Tutorials & Demos</a></li>
+            <li style="width: 16.6%;"><a href="#dev" onclick="load('#dev');">Installation</a></li>
+            <li style="width: 16.6%;"><a href="#support" onclick="load('#support');">Support</a></li>
+        </ul>
+    </div>
+</div>
+<div id="home" class="entry" style="margin-top: 10px;">
+    <div class="box">
+        <h1>
+            Welcome to the AToMPM project
+        </h1>
+
+        <p>
+            AToMPM stands for "A Tool for Multi-Paradigm Modeling". It is a research framework
+            from which you can generate domain-specific modeling web-based tools that run on
+            the cloud. AToMPM is an open-source framework for designing DSML environments,
+            performing model transformations, and manipulating and managing models. It runs
+            completely over the web, making it independent from any operating system, platform,
+            or device it may execute on. AToMPM follows the philosophy of modeling everything
+            explicitly, at the right level of abstraction(s), using the most appropriate formalism(s)
+            and process(es), being completely modeled by itself.
+        </p>
+    </div>
+    <div class="box" style="text-align: center;">
+        <img src="img/screenshot.png"/><br/>
+
+        <div id="download">
+            <a href="#dev" onclick="load('#dev');">Download</a>
+        </div>
+    </div>
+</div>
+<div id="people" class="entry" style="margin-top: 10px; display: none;">
+    <div class="box">
+        <h1>
+        </h1>
+
+        <p>
+            A very active development team is behind the AToMPM project. The team is distributed
+            all around the world.</p>
+    </div>
+    <div class="box">
+        <h1>
+            Professors
+        </h1>
+        <ul>
+            <li><a href="http://syriani.cs.ua.edu">Prof. Dr. Eugene Syriani</a>, <span style="font-style: italic;">
+							University of Montreal</span></li>
+            <li><a href="http://msdl.cs.mcgill.ca/people/hv">Prof. Dr. Hans Vangheluwe</a>, <span
+                    style="font-style: italic;">University of Antwerp and McGill University</span></li>
+        </ul>
+    </div>
+    <div class="box">
+        <h1>
+            Postdocs
+        </h1>
+        <ul>
+            <li><a href="http://msdl.cs.mcgill.ca/people/sadaf/">Dr. Sadaf Mustafiz</a>, <span
+                    style="font-style: italic;">McGill University</span>: statecharts execution</li>
+            <li><a href="http://msdl.cs.mcgill.ca/people/levi/">Dr. Levi Lucio</a>, <span style="font-style: italic;">
+							McGill University</span> (2015): model verification</li>
+        </ul>
+    </div>
+    <div class="box">
+        <h1>
+            Doctoral students
+        </h1>
+        <ul>
+            <li><a href="http://corle001.students.cs.ua.edu/">Jonathan Corley</a>, <span style="font-style: italic;">
+							University of Alabama</span>: collaborative architecture</li>
+            <li><a href="http://hergin.students.cs.ua.edu/">Huseyin Ergin</a>, <span style="font-style: italic;">
+							University of Alabama</span>: model transformation</li>
+            <li><a href="http://msdl.cs.mcgill.ca/people/maris/">Maris Jukss</a>, <span style="font-style: italic;">
+							McGill University </span>: model transformation</li>
+            <li><a href="http://msdl.cs.mcgill.ca/people/bentley/">Bentley Oakes</a>, <span style="font-style: italic;">
+							McGill University</span>: model verification</li>
+            <li><a href="http://msdl.cs.mcgill.ca/people/simonvm/">Simon Van Mierlo</a>, <span
+                    style="font-style: italic;">University of Antwerp</span>: modelverse and debugging</li>
+            <li><a href="http://msdl.cs.mcgill.ca/people/yentl/">Yentl Van Tendeloo</a>, <span
+                    style="font-style: italic;">University of Antwerp</span>: modelverse</li>
+            <li><a href="http://msdl.cs.mcgill.ca/people/bart/">Bart Meyers</a>, <span
+                    style="font-style: italic;">University of Antwerp</span> (2016): model checking</li>
+            <li><a href="http://msdl.cs.mcgill.ca/people/raphael/">Raphael Mannadiar</a>, <span
+                    style="font-style: italic;">McGill University</span> (2012): initial framework</li>
+        </ul>
+    </div>
+    <div class="box">
+        <h1>
+            Masters students
+        </h1>
+        <ul>
+            <li><a href="http://www-ens.iro.umontreal.ca/~gamboagm/">Miguel Gamboa</a>, <span style="font-style: italic;">
+							University of Montreal</span>: automation of tasks</li>
+            <li><a href="http://chansen.students.cs.ua.edu/">Conner Hansen</a>, <span style="font-style: italic;">
+							University of Alabama (2014)</span>: graphical user interface</li>
+            <li><a href="http://msdl.cs.mcgill.ca/people/jelle/">Jelle Slowack</a>, <span style="font-style: italic;">
+							University of Antwerp</span> (2013): Modelverse parser</li>
+        </ul>
+    </div>
+    <!--<div class="box">
+        <h1>
+            Undergraduate students
+        </h1>
+        <ul>
+            <li><a href=""></a>, <span style="font-style: italic;"></span></li>
+        </ul>
+    </div>-->
+    <div class="box">
+        <h1>
+            Partners and Sponsors
+        </h1>
+        <table cellspacing="10" width="100%" border="0" style="text-align: center; display: table;
+						margin: 0 auto;">
+            <tr>
+                <td>
+                    <a href="http://www-ens.iro.umontreal.ca/~syriani/research.html">
+                        <img src="http://www.umontreal.ca/images/iu/logo-udem.gif" alt="Université de Montréal"
+                             height="63px"/></a>
+                </td>
+                <td>
+                    <a href="http://msdl.cs.mcgill.ca/">
+                        <img src="http://www.mcgill.ca/sites/all/themes/blofeld/images/logo_red.png"
+                             alt="McGill University"
+                             height="63px"/></a>
+                </td>
+                <td>
+                    <a href="http://ansymo.ua.ac.be/">
+                        <img src="https://www.uantwerpen.be/styles2/ua/reference/img/logo.png"
+                             alt="University of Antwerp"
+                             height="63px"/></a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="http://syriani.cs.ua.edu/Research.aspx">
+                        <img src="http://visualid.ua.edu/download/wordmark/gif/201/boxed201.gif"
+                             alt="University of Alabama"
+                             height="63px"/></a>
+                </td>
+                <td>
+                    <a href="https://www.necsis.ca/">
+                        <img src="http://msdl.cs.mcgill.ca/projects/NECSIS/NECSISlogo.jpg" alt="NECSIS" height="63px"/></a>
+                </td>
+                <td>
+                    <!--<a href="http://www.nsf.gov/">
+    <img src="https://www.nsf.gov/images/logos/nsf1v.jpg" alt="NSF" height="63px" /></a>-->
+                </td>
+                <td>
+                    <!--<a href="">
+    <img src="" alt="" height="63px" /></a>-->
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div id="publications" class="entry" style="margin-top: 10px; display: none;">
+    <div class="box">
+        <h1>
+            Publications
+        </h1>
+        <ol class="ref">
+            <li><a href="" class="">
+            </a>&nbsp;&nbsp;J. Corley, E. Syriani and H. Ergin. Evaluating the Cloud Architecture of AToMPM. <i>Model-Driven Engineering and Software Development</i>, pp. 339-346, SciTePress, 2016.
+            </li>
+            <li><a href="" class="">
+            </a>&nbsp;&nbsp;M. Gamboa and E. Syriani. Automating Activities in MDE Tools. <i>Model-Driven Engineering and Software Development</i>, pp. 123-133, SciTePress, 2016.
+            </li>
+            <li><a href="http://ceur-ws.org/Vol-1305/paper20.pdf" class="pdfLink">
+            </a>&nbsp;&nbsp;H. Ergin and E. Syriani. AToMPM Solution for the IMDB Case Study. <i>Transformation Tool Contest</i>. CEUR-WS.org: 1305, pp. 134--138, York, 2014.
+            </li>
+            <li><a href="http://ceur-ws.org/Vol-1286/p9.pdf" class="pdfLink">
+            </a>&nbsp;&nbsp;S. Van Mierlo, B. Barroca, H. Vangheluwe, E. Syriani and T. Kuehne. Multi-Level Modelling in the Modelverse. <i>MULTI workshop</i>. CEUR-WS.org, Valencia, 2014.
+            </li>
+            <li><a href="http://ceur-ws.org/Vol-1258/poster2.pdf" class="pdfLink">
+            </a>&nbsp;&nbsp;J. Corley and E. Syriani. <i>A Cloud Architecture for an Extensible Multi-Paradigm Modeling
+                Environment.</i> MODELS posters. CEUR-WS.org: 1258, pp. 6-10, Valencia, 2014.
+            </li>
+            <li><a href="http://ceur-ws.org/Vol-1258/poster2.pdf" class="pdfLink">
+            </a>&nbsp;&nbsp;E. Syriani, H. Vangheluwe, R. Mannadiar, C. Hansen, S. Van Mierlo and H. Ergin. AToMPM: A Web-based Modeling Environment. <i>MODELS'13: Invited Talks, Demos, Posters, and ACM SRC</i>. CEUR-WS.org: 1115, Miami, 2013.
+            </li>
+            <li><a href="http://msdl.cs.mcgill.ca/people/simonvm/files/thesis" class="pdfLink"></a>
+                &nbsp;&nbsp;S. Van Mierlo. <i>Model Transformation for Modelling Language Evolution.</i>
+                University of Antwerp, Masters thesis, 2013.
+            </li>
+            <li>&nbsp;&nbsp;J. Slowack. <i>Human-Usable Textual Notation for ArkM3.</i> University
+                of Antwerp, Masters thesis, 2013.
+            </li>
+            <li><a href="http://dx.doi.org/10.1007/978-3-642-38911-5_11" class="pdfLink"></a>&nbsp;&nbsp;L.
+                Lucio, S. Mustafiz, J. Denil, H. Vangheluwe, M. Jukss. <i>FTG+PM: An Integrated Framework
+                    for Investigating Model Transformation Chains.</i> SDL Forum, pp. 182-202, 2013.
+            </li>
+            <li><a href="http://dx.doi.org/10.1007/s10270-013-0370-4" class="pdfLink"></a>&nbsp;&nbsp;E.
+                Syriani, H. Vangheluwe and B. LaShomb. <i>T-Core: A Framework for Custom-built Transformation
+                    Languages.</i> Journal on Software and Systems Modeling, 2013.
+            </li>
+            <li><a href="http://msdl.cs.mcgill.ca/people/raphael/files/poster.pdf" class="pdfLink">
+            </a>&nbsp;&nbsp;R. Mannadiar. <i>AToMPM: A Tool for Multi-Paradigm Modelling.</i> NECSIS
+                Workshop, 2012.
+            </li>
+            <li><a href="http://syriani.cs.ua.edu/publications/DE13.pdf" class="pdfLink"></a>&nbsp;&nbsp;E.
+                Syriani, J. Gray and H. Vangheluwe. Modeling a Model Transformation Language. <i>Domain
+                    Engineering: Product Lines, Conceptual Models, and Languages.</i> 2012.
+            </li>
+            <li><a href="http://msdl.cs.mcgill.ca/people/raphael/files/thesis.pdf" class="pdfLink">
+            </a>&nbsp;&nbsp;R. Mannadiar. <i>A Multi-Paradigm Modelling Approach to the Foundations
+                of Domain-Specific Modelling.</i> Doctoral dissertation, McGill University, jun,
+                2012.
+            </li>
+            <li><a href="http://dx.doi.org/10.1007/s11334-011-0157-0" class="pdfLink"></a>&nbsp;&nbsp;R.
+                Mannadiar, H. Vangheluwe. <i>Modular artifact synthesis from domain-specific models.</i>
+                ISSE 8(1), pp. 65-77, 2012.
+            </li>
+        </ol>
+    </div>
+</div>
+<div id="media" class="entry" style="margin-top: 10px; display: none;">
+    <div class="box">
+        <h1>
+            Documentation
+        </h1>
+        Here is the official <a href="https://msdl.uantwerpen.be/documentation/AToMPM">user manual</a> of AToMPM
+    </div>
+    <div class="box">
+        <h1>
+            Tutorials
+        </h1>
+
+        <div style="display: table; margin: 0 auto;">
+            <iframe src="http://www.slideshare.net/slideshow/embed_code/26363051" width="476"
+                    height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no">
+            </iframe>
+        </div>
+        <p style="text-align: center;">
+            <a href="http://www.slideshare.net/eugenesyriani/atompm-introductory-tutorial">http://www.slideshare.net/eugenesyriani/atompm-introductory-tutorial</a>
+        </p>
+    </div>
+    <div class="box">
+        <h1>
+            Demos
+        </h1>
+
+        <div style="display: table; margin: 0 auto;">
+            <iframe width="560" height="315" src="http://www.youtube.com/embed/iBbdpmpwn6M" frameborder="0"
+                    allowfullscreen></iframe>
+        </div>
+        <p style="text-align: center;">
+            <a href="http://www.youtube.com/watch?v=iBbdpmpwn6M">http://www.youtube.com/watch?v=iBbdpmpwn6M</a>
+        </p>
+
+        <div style="display: table; margin: 0 auto;">
+            <iframe width="420" height="315" src="http://www.youtube.com/embed/RYtea2BiQ98" frameborder="0"
+                    allowfullscreen></iframe>
+            <p style="text-align: center;">
+                <a href="http://www.youtube.com/watch?v=RYtea2BiQ98">http://www.youtube.com/watch?v=RYtea2BiQ98</a>
+            </p>
+        </div>
+        <div class="box">
+            <h1>
+                Presentations
+            </h1>
+
+            <div style="display: table; margin: 0 auto;">
+                <iframe src="http://www.slideshare.net/slideshow/embed_code/26363260" width="476"
+                        height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no">
+                </iframe>
+            </div>
+            <p style="text-align: center;">
+                <a href="http://www.slideshare.net/eugenesyriani/atompm-features">http://www.slideshare.net/eugenesyriani/atompm-features</a>
+            </p>
+        </div>
+    </div>
+</div>
+<div id="dev" class="entry" style="margin-top: 10px; display: none;">
+    <p class="download_latest">
+        <a id="download_dev" class="download_latest" href="files/atompm.zip"></a>
+    </p>
+
+    <div class="box">
+        <h1>
+            Current stable version
+        </h1>
+
+        <p>
+            The current stable version is <a id="latest_version" href="files/atompm.zip"></a>. You can download the bundle that contains both client and server. We are currently working on the first official release atompm-H. It features a completely new user interface, offers full support for custom plugins, and a completely new modeling API based on the Modelverse.</p>
+    </div>
+    <div class="box">
+        <h1>
+            Dependencies (already included in bundle)</h1>
+        <ol>
+            <li><a href="http://python.org/download/">Python 2.7.X (32-bit)</a></li>
+            <li><a href="https://pypi.python.org/pypi/python-igraph/0.6.5">python-igraph 0.6.5</a></li>
+            <li><a href="https://nodejs.org/download/release/v0.10.31/">Node.js 0.10.31</a></li>
+            <li>socket.io@0.9.16 and socket.io-client@0.9.16</li>
+        </ol>
+    </div>
+</div>
+<div id="support" class="entry" style="margin-top: 10px; display: none;">
+    <div class="box">
+        <h1>
+            Bug Reports
+        </h1>
+
+        <p>
+            If you find a bug, please let us know by <a
+                href="mailto:dasilvav@iro.umontreal.ca;yentl.vantendeloo@uantwerpen.be;simon.vanmierlo@uantwerpen.be ?Subject=AToMPM%20Bug%20Report">
+            sending us an email here</a>.
+        </p>
+    </div>
+    <div class="box">
+        <h1>
+            Support
+        </h1>
+
+        <p>
+            If you need support, please contact us by <a
+                href="mailto:dasilvav@iro.umontreal.ca;yentl.vantendeloo@uantwerpen.be;simon.vanmierlo@uantwerpen.be  ?Subject=AToMPM%20Support%20Request">
+            sending us an email here</a>.
+        </p>
+    </div>
+    <div class="box">
+        <h1>
+            Project Links
+        </h1>
+        <ul>
+            <li><a href="http://msdl.uantwerpen.be/git/simon/AToMPM.git">AToMPM Git repository</a></li>
+            <li><a href="http://msdl.uantwerpen.be/git/yentl/modelverse.git">Modelverse Git repository</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,955 @@
+/*********************************************************
+	CSS Resets
+ *********************************************************/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6,
+p, pre, a, em, font, img, small, strike, strong, sub, sup,
+tt, dl, dt, dd, ol, ul, li, form
+{
+    background: none;
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: inherit;
+    color: inherit;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-align: left;
+    text-decoration: none;
+    letter-spacing: 0;
+    text-align: inherit;
+}
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+em, i
+{
+    font-style: italic;
+}
+strong, b
+{
+    font-weight: bold;
+}
+
+li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.show_if_no_js
+{
+    display: block !important;
+    visibility: visible !important;
+}
+.hide_if_no_js
+{
+    display: none !important;
+    visibility: hidden !important;
+}
+.show
+{
+    display: block !important;
+    visibility: visible !important;
+}
+.hide
+{
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.show_on_print
+{
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.clear
+{
+    clear: both;
+}
+.clear.left
+{
+    clear: left;
+}
+.clear.right
+{
+    clear: right;
+}
+
+/*
+Theme Name: UA College of Engineering
+Theme URI: http://eng.ua.edu
+Description: This WordPress theme is intended solely for the University of Alabama's College of Engineering.
+Version: 1.0
+Author: Rachel Carden
+Author URI: http://webtide.wordpress.com
+Tags: university, alabama, college, engineering
+*/
+
+html
+{
+    display: block;
+}
+
+body
+{
+    display: block;
+    background: #1b1a1a;
+    color: Black;
+    font-family: "Lucida Sans" ,Lucida Sans Unicode,Verdana,Arial,sans-serif;
+    font-size: 12.5px;
+    line-height: normal;
+    font-weight: normal;
+    font-style: normal;
+}
+
+a
+{
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    clear: left;
+}
+
+h1, h2, h3, h4
+{
+    font-weight: bold;
+}
+
+h1
+{
+    font-size: 19px;
+    line-height: normal;
+}
+
+h2
+{
+    font-size: 16px;
+    line-height: normal;
+}
+
+h3, h4, h5, h6
+{
+    margin-bottom: 2px;
+}
+
+p, table
+{
+    margin: 0 0 15px 0;
+}
+
+ol, ul
+{
+    margin: 0 0 20px 12px;
+}
+ol ol, ol ul, ul ul, ul ol
+{
+    margin-bottom: 0;
+    margin-left: 8px;
+}
+
+li
+{
+    margin: 1px 0 0 0;
+    padding: 0;
+}
+
+ol
+{
+    margin-left: 32px;
+}
+ol li
+{
+    list-style: decimal outside;
+    margin-top: 2px;
+}
+
+ul.items
+{
+    margin-left: 0;
+}
+
+ul.items li
+{
+    background: none;
+    margin: 0;
+    padding: 0;
+    padding: 8px 5px 10px 5px !important;
+    overflow: hidden;
+}
+ul.items li:first-child
+{
+    margin-top: 0;
+}
+
+ul.items li:nth-child(odd)
+{
+    background: #e5e4e4;
+    padding-top: 4px !important;
+    padding-bottom: 5px !important;
+}
+
+ul.items p
+{
+    margin: 0;
+}
+
+ul.items p.details
+{
+    font-size: 11px;
+    line-height: normal;
+    margin-bottom: 3px;
+    color: #333;
+}
+ul.items p.details a
+{
+    color: #333 !important;
+}
+
+ul.items h3
+{
+    margin: 0 0 2px 0;
+}
+
+h1 + ul.items
+{
+    margin-top: 5px;
+}
+
+
+table
+{
+    width: 100%;
+    border: 1px dotted #888;
+}
+
+td
+{
+    border-left: 1px dotted #888;
+    border-bottom: 1px dotted #ccc;
+    padding: 3px 15px 3px 9px;
+}
+
+tr td:first-child
+{
+    border-left: 0;
+    padding-left: 6px;
+}
+tr:last-child td
+{
+    border-bottom: 0;
+}
+
+tr.header td
+{
+    background: #ddd;
+    font-weight: bold;
+    border-bottom: 1px dotted #888;
+}
+
+table.two td
+{
+    width: 50%;
+}
+
+table.no_border, table.no_border th, table.no_border td
+{
+    border: 0;
+}
+
+table.no_border th, table.no_border td
+{
+    padding-left: 0;
+    padding-bottom: 8px;
+}
+.red
+{
+    color: #730303;
+}
+.gray
+{
+    color: #444;
+}
+
+.underline
+{
+    text-decoration: underline;
+}
+
+.left
+{
+    float: left;
+}
+.right
+{
+    float: right;
+}
+
+/* for 960 grid */
+div.inside
+{
+    display: block;
+    min-height: 1px;
+    width: 940px;
+    padding: 0 10px 0 10px;
+    border: 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+#bg
+{
+    display: block;
+    background: url(../images/bg.jpg) center top repeat-x #f0efef;
+    min-width: 1031px;
+    border-bottom: 2px solid #c1bebe;
+    border-bottom: 2px solid #b7b1b1;
+    border-bottom: 2px solid #888;
+    border: 0;
+    position: relative;
+    z-index: 0;
+}
+
+body.home #bg
+{
+    background-image: url(../images/bg.jpg);
+}
+
+#bg3
+{
+    display: block;
+    background-image: url(http://eng.ua.edu/wp-content/themes/ua_eng/images/styles/header.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    min-width: 1031px;
+    z-index: 100;
+}
+
+
+div#ua
+{
+    display: block;
+    background: url(http://eng.ua.edu/wp-content/themes/ua_eng/images/styles/footer_ua_bg.jpg) center bottom repeat-x;
+    min-width: 960px;
+    margin: 0;
+    border: 0;
+    padding: 0 0 2px 0;
+}
+
+div#ua div.footer
+{
+    display: block;
+    /*background: url(http://eng.ua.edu/wp-content/themes/ua_eng/images/styles/footer_ua_logo.png) 1px center no-repeat;*/
+    width: 940px;
+    height: 75px;
+    padding: 0 10px 0 10px;
+    border: 0;
+    margin: 4px auto 0 auto;
+    overflow: hidden;
+    color: #fff;
+    font-size: 12px;
+    line-height: normal;
+}
+
+div#ua div.footer a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+div#ua div.footer a:hover
+{
+    border-bottom: 1px dotted #fff;
+}
+
+div#ua div.footer h3.logo
+{
+    display: block;
+    float: left;
+    width: 100px;
+    height: 75px;
+    background: none;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+div#ua div.footer h3.logo a
+{
+    display: block;
+    background: none;
+    height: 75px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+div#ua div.footer h3.logo a *
+{
+    display: none;
+    visibility: hidden;
+}
+
+div#ua div.footer div.text
+{
+    display: block;
+    float: left;
+    width: 718px;
+    background: none;
+    margin: 21px 0 0 0;
+    border: 0;
+    padding: 0;
+}
+
+div#ua div.footer div.text img
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+div#ua div.footer div.text img.icon
+{
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+div#ua div.footer p
+{
+    margin: 0 0 2px 0;
+    border: 0;
+    padding: 0;
+}
+
+
+div#ua div.footer div.icons
+{
+    display: block;
+    float: right;
+    width: 117px;
+    background: none;
+    margin: 20px 0 0 0;
+    border: 0;
+    overflow: hidden;
+}
+
+div#ua div.footer div.icons a
+{
+    display: block;
+    float: right;
+    width: 35px;
+    height: 35px;
+    margin: 0 0 0 6px;
+    border: 0;
+    padding: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+div#ua div.footer div.icons a span
+{
+    display: none;
+    visibility: hidden;
+}
+/* wrapper */
+div#wrapper
+{
+    display: block;
+    background: none;
+    width: 1031px;
+    margin: auto;
+    z-index: 1000;
+}
+div#header
+{
+    display: block;
+    background-image: url(http://eng.ua.edu/wp-content/themes/ua_eng/images/styles/header.jpg);
+    background-color: #514030;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background: none;
+    overflow: hidden;
+    color: #fff;
+    border: 0;
+}
+
+div#header h1, div#header h2, div#header h3
+{
+    display: none;
+    visibility: hidden;
+}
+div#header .logo
+{
+    display: block;
+    visibility: visible;
+    float: left;
+    width: 570px;
+    height: 134px;
+    background: none;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+div#header .logo a
+{
+    display: block;
+    height: 134px;
+    background: none;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+div#header img.logo, div#header .logo a *
+{
+    display: none;
+    visibility: hidden;
+}
+div#nav1
+{
+    display: block;
+    background: #333;
+    border-top: 1px solid #917f6f;
+    border: 0;
+    color: #fff;
+    height: 40px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: normal;
+    text-align: center;
+    margin-top: 2px;
+}
+
+div#nav1 a
+{
+    color: #fff;
+}
+
+div#nav1 div.inside
+{
+    width: 1031px;
+    padding: 0;
+}
+
+div#nav1 ul
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+}
+div#nav1 ul:hover
+{
+    border-bottom: 1px solid #730303;
+}
+
+div#nav1 li
+{
+    float: left;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+div#nav1 li a
+{
+    display: block;
+    height: 29px;
+    padding: 11px 0 0 0;
+    text-decoration: none;
+}
+
+div#nav1 li a:hover
+{
+    background: #730303;
+}
+
+div#nav1 li.one a
+{
+    width: 146px;
+}
+div#nav1 li.two a
+{
+    width: 103px;
+}
+div#nav1 li.three a
+{
+    width: 196px;
+}
+div#nav1 li.four a
+{
+    width: 157px;
+}
+div#nav1 li.five a
+{
+    width: 147px;
+}
+div#nav1 li.six a
+{
+    width: 125px;
+}
+div#nav1 li.seven a
+{
+    width: 86px;
+}
+
+
+
+div#breadcrumbs
+{
+    display: block;
+    height: 25px;
+    overflow: hidden;
+    background: none;
+    margin: auto;
+}
+
+div#breadcrumbs div.inside
+{
+}
+
+div#breadcrumbs ul
+{
+    margin: 0;
+    margin-left: 240px;
+    padding: 0;
+    padding-top: 5px;
+    overflow: hidden;
+}
+
+div#breadcrumbs li
+{
+    float: left;
+    background: none;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    line-height: normal;
+}
+div#breadcrumbs li.sep
+{
+    margin: 0 5px 0 6px;
+    font-size: 10px;
+    line-height: normal;
+}
+
+div#breadcrumbs li.current
+{
+}
+
+div#breadcrumbs li a
+{
+    display: block;
+    text-decoration: none;
+}
+div#breadcrumbs li a:hover
+{
+    text-decoration: underline;
+}
+/* main */
+#main
+{
+    background: none;
+    padding-top: 20px;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+#main div.inside
+{
+    min-height: 450px;
+    background: url(http://eng.ua.edu/wp-content/themes/ua_eng/images/styles/main_bg.png) 230px top repeat-y;
+}
+
+
+/* main - home */
+body.home #main
+{
+    padding: 10px 0 20px 0;
+    border: 0;
+}
+body.home #main div.inside
+{
+    min-height: 100px;
+    background: url(http://eng.ua.edu/wp-content/themes/ua_eng/images/home/main_bg.png) 10px 0 no-repeat;
+    border: 0;
+}
+
+body.home #main div.col
+{
+    display: block;
+    background: #dfdcdc;
+    background: none;
+    float: left;
+    padding: 8px 10px 0 10px;
+    width: 285px;
+    min-height: 250px;
+    margin: 0;
+    border: 0;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+body.home #main div.col.one
+{
+    clear: left;
+}
+body.home #main div.col.one a.more
+{
+    font-size: 11px;
+    line-height: normal;
+}
+
+body.home #main div.col.one a
+{
+    font-weight: bold;
+}
+
+body.home #main div.col.two
+{
+    width: 286px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+body.home #main h3
+{
+    margin: 0 0 2px 0;
+    font-size: 14px;
+    line-height: normal;
+}
+
+body.home #main h3 a
+{
+    text-decoration: none;
+}
+body.home #main h3 a:hover
+{
+    text-decoration: underline;
+}
+
+body.home #main p
+{
+    margin-bottom: 12px;
+}
+
+body.home #main img
+{
+    display: block;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float: none;
+    max-width: 100%;
+}
+
+body.home #main div.dean
+{
+    display: block;
+    background: none;
+    float: left;
+    width: 104px;
+    margin: 5px 12px 6px 0;
+    border: 0;
+    padding: 0;
+}
+
+body.home #main div.dean img
+{
+    max-width: 100%; /*padding:4px; 	background:#dedede; 	border:1px dotted #CCC;*/
+}
+
+body.home #main div.dean p
+{
+    margin: 3px 0 0 0;
+    border: 0;
+    padding: 0;
+    font-size: 10px;
+    line-height: normal;
+}
+
+/* nav2 */
+#nav2
+{
+    display: block;
+    float: left;
+    width: 220px;
+    line-height: normal;
+    font-size: 13px;
+    line-height: normal;
+    color: #2d2d2d;
+    position: relative;
+}
+
+div#content
+{
+    display: block;
+    background: none;
+    float: right;
+    width: 700px;
+    overflow: hidden;
+}
+
+div#footer
+{
+    display: block;
+    min-width: 960px;
+    background: none;
+    padding: 0;
+    color: #999;
+    font-size: 12px;
+    line-height: normal;
+}
+
+div#footer a
+{
+    color: #999;
+}
+
+div#footer div.inside
+{
+    min-height: 100px;
+    padding: 13px 0 25px 0;
+}
+
+div#footer div.col
+{
+    display: block;
+    float: left;
+    background: #1f1e1e;
+    background: #960;
+    background: none;
+    padding: 0;
+    width: 220px;
+    width: 172px;
+    min-height: 1px;
+    margin: 0 0 0 20px;
+    border: 0;
+}
+
+div#footer div.col.one
+{
+    margin-left: 0;
+    width: 162px;
+    padding-left: 10px;
+}
+
+div#footer div.col.two, div#footer div.col.three, div#footer div.col.four
+{
+    width: 176px;
+}
+
+div#footer div.col.five
+{
+    width: 160px;
+}
+
+
+div#footer h3
+{
+    color: #eee;
+    color: #ddd;
+    font-size: 13px;
+    line-height: normal;
+}
+
+div#footer ul
+{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+div#footer li
+{
+    background: none;
+    margin: 4px 0 0 0;
+    border: 0;
+    padding: 0;
+}
+
+div#footer li:first-child
+{
+    margin-top: 0;
+}
+
+div#footer li a
+{
+    background: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+}
+div#footer li a:hover
+{
+    text-decoration: underline;
+}
+
+
+
+div#footer ul.icons
+{
+    display: block;
+    background: none;
+    margin: 3px 15px 0 0;
+    margin-right: 0;
+    border: 0;
+    padding: 0;
+    color: #eee;
+    font-size: 13px;
+    line-height: normal;
+    font-weight: bold;
+}
+
+div#footer ul.icons a
+{
+    color: #eee;
+}
+
+div#footer ul.icons li
+{
+    display: block;
+    background: none;
+    margin: 7px 0 0 0;
+    border: 0;
+    padding: 0;
+}
+
+div#footer ul.icons li.first
+{
+    margin-top: 0;
+}
+
+div#footer ul.icons li a
+{
+    display: block;
+    padding: 6px 0 6px 33px;
+    background-position: 6px center;
+    background-repeat: no-repeat;
+    background-color: #2c2c2c; /*border:1px solid #444;*/
+}
+
+div#footer ul.icons li a:hover
+{
+    background-color: #aaa;
+    background-color: #000;
+    text-decoration: none;
+}

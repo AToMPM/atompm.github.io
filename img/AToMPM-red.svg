@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="647.67438"
+   height="257.26965"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="AToMPM-red.svg"
+   inkscape:export-filename="D:\Documents\My Documents\Alabama\Development\workplaces\WAToMPM\atompm-world\trunk\client\img\AToMPM-red.png"
+   inkscape:export-xdpi="131.91"
+   inkscape:export-ydpi="131.91"
+   style="enable-background:new">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient5297"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#e2e2e2;stop-opacity:1;"
+         offset="0"
+         id="stop5299" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5297"
+       id="linearGradient5301"
+       x1="17.757812"
+       y1="409.8739"
+       x2="595.85156"
+       y2="409.8739"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       id="filter3898"
+       color-interpolation-filters="sRGB">
+      <feBlend
+         inkscape:collect="always"
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend3900" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter3938"
+       x="-0.028711148"
+       width="1.0574223"
+       y="-0.14626321"
+       height="1.2925264"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.8917969"
+         id="feGaussianBlur3940" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="323.83719"
+     inkscape:cy="128.64022"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer6"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1138"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="15"
+     fit-margin-left="15"
+     fit-margin-right="15"
+     fit-margin-bottom="15"
+     showguides="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="-2.7578125px"
+       originy="-504.22632px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Circle"
+     style="display:inline"
+     transform="translate(9.040313,-0.16786829)">
+    <path
+       style="fill:#970000;fill-opacity:1;stroke:#970000;stroke-width:2.45800018;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="M 235.5 16.0625 C 228.00303 16.229633 221.05712 17.819386 214.90625 20.90625 C 179.11938 38.866185 183.78597 101.65432 225.34375 161.15625 C 266.90153 220.65818 329.58813 254.33493 365.375 236.375 C 384.79004 226.6314 392.30107 203.66971 388.46875 175.21875 C 391.21217 200.06625 384.23771 220.00548 367.0625 228.625 C 334.35028 245.0419 277.04983 214.2648 239.0625 159.875 C 201.07517 105.4852 196.78778 48.073151 229.5 31.65625 C 262.21222 15.239349 319.54392 46.016453 357.53125 100.40625 C 360.7164 104.9667 363.63454 109.54815 366.34375 114.125 C 362.91306 108.12123 359.11836 102.11111 354.9375 96.125 C 320.52246 46.849965 271.62175 15.257222 235.5 16.0625 z "
+       id="path2991-7"
+       transform="translate(-9.040313,0.16786829)" />
+  </g>
+  <g
+     inkscape:label="Text"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(6.2825,-290.70913)">
+    <path
+       sodipodi:type="arc"
+       style="opacity:0;fill:none;stroke:#000000;stroke-width:3.10037374;stroke-miterlimit:4;stroke-opacity:0.1336634;stroke-dasharray:none"
+       id="path2991"
+       sodipodi:cx="215"
+       sodipodi:cy="362.36218"
+       sodipodi:rx="75"
+       sodipodi:ry="200"
+       d="m 290,362.36218 c 0,110.45695 -33.57864,200 -75,200 -41.42136,0 -75,-89.54305 -75,-200 0,-110.45695 33.57864,-200 75,-200 41.42136,0 75,89.54305 75,200 z"
+       transform="matrix(0.86397141,-0.4335912,0.37623511,0.53868886,-38.226643,317.36019)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:8;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:2"
+       id="path3761"
+       sodipodi:cx="215"
+       sodipodi:cy="427.36218"
+       sodipodi:rx="25"
+       sodipodi:ry="25"
+       d="m 240,427.36218 c 0,13.80712 -11.19288,25 -25,25 -13.80712,0 -25,-11.19288 -25,-25 0,-13.80712 11.19288,-25 25,-25 13.80712,0 25,11.19288 25,25 z" />
+    <rect
+       style="fill:none;stroke:none"
+       id="rect3763"
+       width="130"
+       height="90"
+       x="260"
+       y="372.36218" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:6;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="20"
+       y="462.36218"
+       id="text2987"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2989"
+         x="20"
+         y="462.36218"
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;stroke:#ffffff;stroke-width:6;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee Bold">AToMPM</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3775"
+       y="462.36218"
+       x="20"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#970000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sawasdee Bold"
+       xml:space="preserve"><tspan
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#970000;fill-opacity:1;stroke:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee Bold"
+         y="462.36218"
+         x="20"
+         id="tspan3777"
+         sodipodi:role="line">AToMPM</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Shadow"
+     style="display:inline;filter:url(#filter3898)"
+     transform="translate(9.040313,-0.16786829)">
+    <text
+       sodipodi:linespacing="125%"
+       id="text3775-6"
+       y="177.82092"
+       x="21.242188"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.46000001;fill:#970000;fill-opacity:1;stroke:#970000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter3938);font-family:Arial;-inkscape-font-specification:Sawasdee Bold"
+       xml:space="preserve"><tspan
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#970000;fill-opacity:1;stroke:#970000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sawasdee;-inkscape-font-specification:Sawasdee Bold"
+         y="177.82092"
+         x="21.242188"
+         id="tspan3777-2"
+         sodipodi:role="line">AToMPM</tspan></text>
+  </g>
+</svg>
