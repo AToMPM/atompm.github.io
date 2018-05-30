@@ -2,15 +2,31 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+
+    <!--FAVICON-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicons/site.webmanifest">
+    <link rel="shortcut icon" href="/img/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="version" content="0.6.1"/>
     <meta name="versionName" content="atompm-v0.6.1"/>
+
     <title>AToMPM</title>
-    <link rel="SHORTCUT ICON" href="http://cs.ua.edu/favicon.ico"/>
     <link rel="stylesheet" href="style/ua-eng-style.css" type="text/css"/>
     <link rel="stylesheet" href="style/uj-style.css" type="text/css"/>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
     <script type="text/javascript" src="atompm-scripts.js"></script>
 </head>
+
 <body>
 <div id="topbar" onclick="javascript:$(topbar).fadeToggle();">
 </div>
@@ -140,18 +156,18 @@
             <tr>
                 <td>
                     <a href="http://www-ens.iro.umontreal.ca/~syriani/research.html">
-                        <img src="http://www.umontreal.ca/images/iu/logo-udem.gif" alt="Université de Montréal"
+                        <img src="/img/logos/udem.gif" alt="Université de Montréal"
                              height="63px"/></a>
                 </td>
                 <td>
                     <a href="http://msdl.cs.mcgill.ca/">
-                        <img src="http://www.mcgill.ca/sites/all/themes/blofeld/images/logo_red.png"
+                        <img src="/img/logos/mcgill.png"
                              alt="McGill University"
                              height="63px"/></a>
                 </td>
                 <td>
                     <a href="http://ansymo.ua.ac.be/">
-                        <img src="https://www.uantwerpen.be/styles2/ua/reference/img/logo.png"
+                        <img src="/img/logos/uantwerp.png"
                              alt="University of Antwerp"
                              height="63px"/></a>
                 </td>
@@ -159,13 +175,13 @@
             <tr>
                 <td>
                     <a href="http://syriani.cs.ua.edu/Research.aspx">
-                        <img src="http://visualid.ua.edu/download/wordmark/gif/201/boxed201.gif"
+                        <img src="/img/logos/ualabama.gif"
                              alt="University of Alabama"
                              height="63px"/></a>
                 </td>
                 <td>
                     <a href="https://www.necsis.ca/">
-                        <img src="http://msdl.cs.mcgill.ca/projects/NECSIS/NECSISlogo.jpg" alt="NECSIS" height="63px"/></a>
+                        <img src="/img/logos/NECIS.jpg" alt="NECSIS" height="63px"/></a>
                 </td>
                 <td>
                     <!--<a href="http://www.nsf.gov/">
@@ -323,24 +339,13 @@
 <div id="support" class="entry" style="margin-top: 10px; display: none;">
     <div class="box">
         <h1>
-            Bug Reports
+            Bug Reports or Support
         </h1>
 
         <p>
-            If you find a bug, please let us know by <a
-                href="mailto:dasilvav@iro.umontreal.ca;yentl.vantendeloo@uantwerpen.be;simon.vanmierlo@uantwerpen.be ?Subject=AToMPM%20Bug%20Report">
-            sending us an email here</a>.
-        </p>
-    </div>
-    <div class="box">
-        <h1>
-            Support
-        </h1>
-
-        <p>
-            If you need support, please contact us by <a
-                href="mailto:dasilvav@iro.umontreal.ca;yentl.vantendeloo@uantwerpen.be;simon.vanmierlo@uantwerpen.be  ?Subject=AToMPM%20Support%20Request">
-            sending us an email here</a>.
+            If you find a bug or need support, please let us know by raising an issue at <a
+                href="https://github.com/atompm/atompm/issues">
+            the AToMPM GitHub issues page</a>.
         </p>
     </div>
     <div class="box">
@@ -348,7 +353,7 @@
             Project Links
         </h1>
         <ul>
-            <li><a href="http://msdl.uantwerpen.be/git/simon/AToMPM.git">AToMPM Git repository</a></li>
+            <li><a href="https://github.com/atompm/atompm/">AToMPM Git repository</a></li>
             <li><a href="http://msdl.uantwerpen.be/git/yentl/modelverse.git">Modelverse Git repository</a></li>
         </ul>
     </div>
