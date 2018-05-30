@@ -38,12 +38,12 @@
 <div id="nav1">
     <div class="inside" style="width: 100%">
         <ul style="list-style: none; font-weight: bold; font-size: 12pt;">
-            <li style="width: 16.6%;"><a href="#home" onclick="load('#home');">Home</a></li>
-            <li style="width: 16.6%;"><a href="#people" onclick="load('#people');">People</a></li>
-            <li style="width: 16.6%;"><a href="#publications" onclick="load('#publications');">Publications</a></li>
-            <li style="width: 17%;"><a href="#media" onclick="load('#media');">Tutorials & Demos</a></li>
-            <li style="width: 16.6%;"><a href="#dev" onclick="load('#dev');">Installation</a></li>
-            <li style="width: 16.6%;"><a href="#support" onclick="load('#support');">Support</a></li>
+            <li style="width: 25%;"><a href="#home" onclick="load('#home');">Home</a></li>
+            <li style="width: 25%;"><a href="#people" onclick="load('#people');">People</a></li>
+            <li style="width: 25%;"><a href="#publications" onclick="load('#publications');">Publications</a></li>
+            <li style="width: 25%;"><a href="#media" onclick="load('#media');">Tutorials & Demos</a></li>
+            <!--<li style="width: 16.6%;"><a href="#dev" onclick="load('#dev');">Installation</a></li>-->
+            <!--<li style="width: 16.6%;"><a href="#support" onclick="load('#support');">Support</a></li>-->
         </ul>
     </div>
 </div>
@@ -67,10 +67,55 @@
     <div class="box" style="text-align: center;">
         <img src="img/screenshot.png"/><br/>
 
-        <div id="download">
-            <a href="#dev" onclick="load('#dev');">Download</a>
-        </div>
+        <p>
+            The current stable version is <a id="latest_version" href="https://github.com/AToMPM/atompm/releases/latest"></a>.
+            The source code release contains both the client and server code.
+        </p>
+
+        <p class="download_latest">
+            <a id="download_dev" class="download_latest" href="https://github.com/AToMPM/atompm/releases/latest"></a>
+        </p>
     </div>
+
+    <div class="box">
+        <h1>
+            Dependencies (included in the zipped bundle)</h1>
+        <ol>
+            <li><a href="http://python.org/download/">Python 2.7.X (32-bit)</a></li>
+            <li><a href="https://pypi.python.org/pypi/python-igraph/0.6.5">python-igraph 0.6.5</a></li>
+            <li><a href="https://nodejs.org/download/release/v0.10.31/">Node.js 0.10.31</a></li>
+            <li>socket.io@0.9.16 and socket.io-client@0.9.16</li>
+        </ol>
+    </div>
+
+    <div class="box">
+        <h1>
+            Documentation
+        </h1>
+        Here is the official <a href="https://msdl.uantwerpen.be/documentation/AToMPM">user manual</a> of AToMPM
+    </div>
+
+    <div class="box">
+        <h1>
+            Bug Reports or Support
+        </h1>
+
+        <p>
+            If you find a bug or need support, please let us know by raising an issue at <a
+                href="https://github.com/atompm/atompm/issues">
+            the AToMPM GitHub issues page</a>.
+        </p>
+    </div>
+    <div class="box">
+        <h1>
+            Project Links
+        </h1>
+        <ul>
+            <li><a href="https://github.com/atompm/atompm/">AToMPM Git repository</a></li>
+            <li><a href="http://msdl.uantwerpen.be/git/yentl/modelverse.git">Modelverse Git repository</a></li>
+        </ul>
+    </div>
+
 </div>
 <div id="people" class="entry" style="margin-top: 10px; display: none;">
     <div class="box">
@@ -181,7 +226,7 @@
                 </td>
                 <td>
                     <a href="https://www.necsis.ca/">
-                        <img src="/img/logos/NECIS.jpg" alt="NECSIS" height="63px"/></a>
+                        <img src="/img/logos/NECSIS.jpg" alt="NECSIS" height="63px"/></a>
                 </td>
                 <td>
                     <!--<a href="http://www.nsf.gov/">
@@ -256,24 +301,19 @@
     </div>
 </div>
 <div id="media" class="entry" style="margin-top: 10px; display: none;">
-    <div class="box">
-        <h1>
-            Documentation
-        </h1>
-        Here is the official <a href="https://msdl.uantwerpen.be/documentation/AToMPM">user manual</a> of AToMPM
-    </div>
+
     <div class="box">
         <h1>
             Tutorials
         </h1>
 
         <div style="display: table; margin: 0 auto;">
-            <iframe src="http://www.slideshare.net/slideshow/embed_code/26363051" width="476"
+            <iframe src="//www.slideshare.net/slideshow/embed_code/key/9alVJawXBht92" width="476"
                     height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no">
             </iframe>
         </div>
         <p style="text-align: center;">
-            <a href="http://www.slideshare.net/eugenesyriani/atompm-introductory-tutorial">http://www.slideshare.net/eugenesyriani/atompm-introductory-tutorial</a>
+            <a href="https://www.slideshare.net/eugenesyriani/atompm-introductory-tutorial">http://www.slideshare.net/eugenesyriani/atompm-introductory-tutorial</a>
         </p>
     </div>
     <div class="box">
@@ -282,18 +322,18 @@
         </h1>
 
         <div style="display: table; margin: 0 auto;">
-            <iframe width="560" height="315" src="http://www.youtube.com/embed/iBbdpmpwn6M" frameborder="0"
-                    allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/iBbdpmpwn6M" frameborder="0"
+                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
         <p style="text-align: center;">
-            <a href="http://www.youtube.com/watch?v=iBbdpmpwn6M">http://www.youtube.com/watch?v=iBbdpmpwn6M</a>
+            <a href="https://www.youtube.com/watch?v=iBbdpmpwn6M">http://www.youtube.com/watch?v=iBbdpmpwn6M</a>
         </p>
 
         <div style="display: table; margin: 0 auto;">
-            <iframe width="420" height="315" src="http://www.youtube.com/embed/RYtea2BiQ98" frameborder="0"
-                    allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RYtea2BiQ98" frameborder="0"
+                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
             <p style="text-align: center;">
-                <a href="http://www.youtube.com/watch?v=RYtea2BiQ98">http://www.youtube.com/watch?v=RYtea2BiQ98</a>
+                <a href="https://www.youtube.com/watch?v=RYtea2BiQ98">http://www.youtube.com/watch?v=RYtea2BiQ98</a>
             </p>
         </div>
         <div class="box">
@@ -302,60 +342,14 @@
             </h1>
 
             <div style="display: table; margin: 0 auto;">
-                <iframe src="http://www.slideshare.net/slideshow/embed_code/26363260" width="476"
+                <iframe src="//www.slideshare.net/slideshow/embed_code/key/zsW7EUoatt0hl9" width="476"
                         height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no">
                 </iframe>
             </div>
             <p style="text-align: center;">
-                <a href="http://www.slideshare.net/eugenesyriani/atompm-features">http://www.slideshare.net/eugenesyriani/atompm-features</a>
+                <a href="https://www.slideshare.net/eugenesyriani/atompm-features">http://www.slideshare.net/eugenesyriani/atompm-features</a>
             </p>
         </div>
-    </div>
-</div>
-<div id="dev" class="entry" style="margin-top: 10px; display: none;">
-    <p class="download_latest">
-        <a id="download_dev" class="download_latest" href="files/atompm.zip"></a>
-    </p>
-
-    <div class="box">
-        <h1>
-            Current stable version
-        </h1>
-
-        <p>
-            The current stable version is <a id="latest_version" href="files/atompm.zip"></a>. You can download the bundle that contains both client and server. We are currently working on the first official release atompm-H. It features a completely new user interface, offers full support for custom plugins, and a completely new modeling API based on the Modelverse.</p>
-    </div>
-    <div class="box">
-        <h1>
-            Dependencies (already included in bundle)</h1>
-        <ol>
-            <li><a href="http://python.org/download/">Python 2.7.X (32-bit)</a></li>
-            <li><a href="https://pypi.python.org/pypi/python-igraph/0.6.5">python-igraph 0.6.5</a></li>
-            <li><a href="https://nodejs.org/download/release/v0.10.31/">Node.js 0.10.31</a></li>
-            <li>socket.io@0.9.16 and socket.io-client@0.9.16</li>
-        </ol>
-    </div>
-</div>
-<div id="support" class="entry" style="margin-top: 10px; display: none;">
-    <div class="box">
-        <h1>
-            Bug Reports or Support
-        </h1>
-
-        <p>
-            If you find a bug or need support, please let us know by raising an issue at <a
-                href="https://github.com/atompm/atompm/issues">
-            the AToMPM GitHub issues page</a>.
-        </p>
-    </div>
-    <div class="box">
-        <h1>
-            Project Links
-        </h1>
-        <ul>
-            <li><a href="https://github.com/atompm/atompm/">AToMPM Git repository</a></li>
-            <li><a href="http://msdl.uantwerpen.be/git/yentl/modelverse.git">Modelverse Git repository</a></li>
-        </ul>
     </div>
 </div>
 </div>
