@@ -43,77 +43,46 @@ ul li
     list-style-position: inherit !important;
     list-style-image: inherit !important;
 }
-
-
 /*********************************************************
     Publication Links
  *********************************************************/
 a.urlLink
 {
-    background: url("http://cs.ua.edu/~syriani/images/url.png") center right no-repeat;
-    padding-right: 15px;
-}
-a.htmlLink
-{
-    background: url("http://cs.ua.edu/~syriani/images/html.png") center right no-repeat;
-    padding-right: 15px;
+    background: url("../img/url.png") center right no-repeat;
+    padding-right: 1.48515%;    /* 15/1010px */
+    margin-right: .297%;    /* 3/1010px */
+    text-decoration: none;
 }
 a.pdfLink
 {
-    background: url("http://cs.ua.edu/~syriani/images/pdf.png") center right no-repeat;
-    padding-right: 15px;
+    background: url("../img/pdf.png") center right no-repeat;
+    padding-right: 1.48515%;    /* 15/1010px */
+    margin-right: .297%;    /* 3/1010px */
+    text-decoration: none;
 }
 a.pptLink
 {
-    background: url("http://cs.ua.edu/~syriani/images/ppt.png") center right no-repeat;
-    padding-right: 15px;
+    background: url("../img/ppt.png") center right no-repeat;
+    padding-right: 1.48515%;    /* 15/1010px */
+    margin-right: .297%;    /* 3/1010px */
+    text-decoration: none;
 }
 span.award
 {
-    background: url("http://cs.ua.edu/~syriani/images/award.png") center right no-repeat;
-    background-size: 25px;
-    padding-left: 25px;
-    padding-bottom: 20px;
-    min-width: 25px;
-}
-a.doiLink
-{
-    background: url("http://cs.ua.edu/~syriani/images/doi.png") center right no-repeat;
-    padding-right: 18px;
-}
-a.elsevierLink
-{
-    background: url("http://cs.ua.edu/~syriani/images/elsevier.png") center right no-repeat;
-    padding-right: 21px;
+    background: url("../img/award.png") center left no-repeat;
+    padding-right: 2.47525%;    /* 25/1010px */
+    padding-bottom: 1.98%;    /* 20/1010px */
+    min-width: 30px;    /* 25/1010px */
     text-decoration: none;
-    color: #900;
-}
-a.ieeeLink
-{
-    background: url("http://cs.ua.edu/~syriani/images/ieee.png") center right no-repeat;
-    padding-right: 21px;
-    text-decoration: none;
-    color: #900;
-}
-a.ieeecsLink
-{
-    background: url("http://cs.ua.edu/~syriani/images/ieee-cs.jpeg") center right no-repeat;
-    padding-right: 21px;
-    text-decoration: none;
-    color: #900;
-}
-a.acmLink
-{
-    background: url("http://cs.ua.edu/~syriani/images/acm.png") center right no-repeat;
-    padding-right: 19px;
-    text-decoration: none;
-    color: #900;
+    display: table-cell;
 }
 
 ol.ref
 {
     list-style-type: none;
     counter-reset: refCounter;
+    margin-top: 0px;
+    padding: .495% 0 0 0;    /* 5/1010px */
 }
 ol.ref li:before
 {
@@ -126,9 +95,8 @@ ol.ref li:before
 ol.ref li
 {
     display: block;
-    padding-top: 10px;
-    font-size: 13px;
-    font-family: Verdana;
+    padding-top: .99%;    /* 10/1010px */
+    font-family: 'Open Sans', sans-serif;
 }
 
 #download
